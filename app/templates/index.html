@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+
+
+
+
+    
+
+  
+  <div class="accordion">
+    <ul>
+      <li>
+        <div><a href="{{ url_for('airport_lighting') }}">
+          <h2>Airport Lighting</h2>
+          </a> </div>
+      </li>
+      <li>
+        <div> <a href="{{ url_for('highway_construction_lighting') }}">
+          <h2>Highway Construction Lighting </h2>
+          </a> </div>
+      </li>
+      <li>
+        <div> <a href="{{ url_for('marine_lighting') }}">
+          <h2>Marine Lighting</h2>
+          </a> </div>
+      </li>
+      <li>
+        <div> <a href="{{ url_for('railroad_lighting') }}">
+          <h2>Railroad Lighting</h2>
+          </a> </div>
+      </li>
+    </ul>
+  </div>
+  
+
+
+
+<!-- CURTAIN  -->
+
+
+
+
+
+
+
+
+<div class="curtain">
+    <div class="invert">
+      <h2>Quality</h2>
+    </div>
+</div>
+
+
+
+
+{% endblock content %}

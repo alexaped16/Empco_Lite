@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="/static/main.css">
+
+
+<title>Title</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="topBar">
+            <img src="/static/Empco-logo-web-07.png" height="10%" width="10%">
+        </div>
+            <i class="uil uil-bars toggle"></i>
+        </div>
+        <ul class="navMenu">
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="{{ url_for('airport_lighting') }}">Airport lighting</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+        
+    
+        {% block content %}
+    
+        {% endblock content %}
+
+
+
+
+
+
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>909 Grace Street,</span>
+                                    <p>Elgin, IL 60120-8419</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>847-931-2455</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>sales@elginmolded.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="{{ url_for('index') }}"><img src="/static/Empco-logo-web-07.png" class="img-fluid" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Our goal is to provide the highest quality lighting and complementary products at competitive prices, always keeping the customer in mind. </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">AKT Corporation</a></li>
+                                    <li><a href="{{ url_for('airport_lighting') }}">Airport Lighting</a></li>
+                                    <li><a href="#">Get a Quote</a></li>
+                                    <li><a href="{{ url_for('highway_construction_lighting') }}">Highway Construction</a></li>
+                                    <li><a href="#">Expert Team</a></li>
+                                    <li><a href="{{ url_for('marine_lighting') }}">Marine Lighting</a></li>
+                                    <li><a href="#">Elgin Molded Plastics</a></li>
+                                    <li><a href="{{ url_for('railroad_lighting') }}">Railroad Lighting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Request a Quote</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Providing services since the 1960's. Trust our expert sales team to provide to solutions you need.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2022, Website Design & Branding <a href="#">Laids Design</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                                    <li><a href="{{ url_for('about') }}">About</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+
+
+<script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
