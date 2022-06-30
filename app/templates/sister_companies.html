@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<section class="text--center bg-primary">
+    <div class="about-container">
+    <h3>Sister Companies</h3>
+    <p>Since 1949...Expertise, Technology, Quality</p>
+    <p class='pdl80 pdr80' > Elgin Molded Plastics has grown from three employees in a small garage-like 750 square feet structure to 50 employees with three facilities totally 85,000 square feet. AKT Corporation and Empo-Lite were formed through popular demand. </p>
+    </div>
+</section>
+
+<section class="about">
+    <div class="about-container">
+    <div class="col-3 text--center">
+        <img src="/static/1.jpg" alt="" class="details-img--ball"/>
+    </div>
+    <div class="col-7 details">
+        <h3>AKT Corporation</h3>
+        <p>AKT Corporation was formed in 1978, as a manufacturer and supplier of 3" delineators, guardrail delineators, barrier wall markers and traffic signal lenses.</p>
+        <a href="{{ url_for('akt') }}" class="btn">Learn More</a>
+    </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="about-container">
+    <div class="col-3 text--center">
+        <img src="/static/1.jpg" alt="" class="details-img--ball"/>
+    </div>
+    <div class="col-7 details">
+        <h3>Elgin Molded</h3>
+        <p>Elgin Molded Plastics, in Elgin, IL, has 19 injection molding presses ranging from 85 ton to 500 ton.  Many have expanded platens and fixed with robots.</p>
+        <a href="https://elginmolded.com/index.html" class="btn">Learn More</a>
+    </div>
+    </div>
+</section>
+
+<section class="about">
+    <div class="about-container">
+    <div class="col-3 text--center">
+        <img src="/static/1.jpg" alt="" class="details-img--ball"/>
+    </div>
+    <div class="col-7 details">
+        <h3>Empco-Lite</h3>
+        <p>Empco-Lite has been involved in the traffic safety industry since the 1960’s. Our goal is to provide
+            the highest quality lighting and complementary products at competitive prices, always keeping
+            the customer in mind. All of our products are made in America and molded by Elgin Molded
+            Plastics.</p>
+            <a href="{{ url_for('index') }}" class="btn">Home</a>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}

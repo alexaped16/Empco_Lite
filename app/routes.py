@@ -9,7 +9,7 @@ def index():
 
 
 @app.route('/about')
-def my_portfolio():
+def about():
     return render_template('about.html')
 
 @app.route('/contact')
@@ -17,9 +17,22 @@ def contact():
     return render_template('contact.html')
 
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
+@app.route('/product_line')
+def product_line():
+    return render_template('product_line.html')
+
+
+@app.route('/process')
+def process():
+    return render_template('process.html')
+
+@app.route('/sister_companies')
+def sister_companies():
+    return render_template('sister_companies.html')
+
+@app.route('/akt')
+def akt():
+    return render_template('akt.html')
 
 
 
@@ -35,7 +48,7 @@ def highway_construction_lighting():
 
 @app.route('/marine_lighting')
 def marine_lighting():
-    return render_template('maring_lighting.html')
+    return render_template('marine_lighting.html')
 
 @app.route('/rairoad_lighting')
 def railroad_lighting():
