@@ -3,46 +3,58 @@
 
 {% block content %}
 
-<section class="text--center bg-primary">
-    <div class="about-container">
-        <h1>Product Line</h1>
-        <p>From the clouds in the sky to depths of the ocean, we have your lighting needs covered</p>
+<section class="text--center grad-neutral">
+    <div class="container">
+        <h1 class="grad-heading">Product Line</h1>
+        <p>We have ALL your lighting needs covered<p>
     </div>
 </section>
 
 
-<section class="hero-section">
-    <div class="card-grid">
-      <a class="card" href="#">
+
+
+<section class="hero-section ">
+    <div class="card-grid mt80">
+      <a class="card" href="{{ url_for('airport_lighting') }}">
         <div class="card__background" style="background-image: url(/static/pexels-igor-starkov-761981.jpg)"></div>
         <div class="card__content">
-          <p class="card__category">Flying</p>
+          
           <h3 class="card__heading">Airport Lighting</h3>
         </div>
       </a>
-      <a class="card" href="#">
+      <a class="card" href="{{ url_for('railroad_lighting') }}">
         <div class="card__background" style="background-image: url(/static/pexels-trace-hudson-2365701.jpg)"></div>
         <div class="card__content">
-          <p class="card__category">Transportation</p>
+          
           <h3 class="card__heading">Railroad Lighting</h3>
         </div>
       </a>
-      <a class="card" href="#">
+      <a class="card" href="{{ url_for('highway_construction_lighting') }}">
         <div class="card__background" style="background-image: url(/static/pexels-ave-calvar-martinez-4705093.jpg)"></div>
         <div class="card__content">
-          <p class="card__category">Construction</p>
+          
           <h3 class="card__heading">Highway Lighting</h3>
         </div>
       </a>
-      <a class="card" href="#">
+      <a class="card" href="{{ url_for('marine_lighting') }}">
         <div class="card__background" style="background-image: url(/static/pexels-ben-mack-5326990.jpg)"></div>
         <div class="card__content">
-          <p class="card__category">Water</p>
+          
           <h3 class="card__heading">Marine Lighting</h3>
         </div>
-      </li>
-    </div>
+      </a>
+    
 </section>
+
+    <!-- SISTER COMPANIES -->
+
+    <section class="text--center section--primary--alt mb80">
+      <div class="">
+      <h3 class="grad-primary">Our Structure</h3>
+      <p>See how Empco-Lite, AKT Corporation, and Elgin Molded work side by side to supply a diverse product line</p>
+      <a href="{{ url_for('sister_companies') }}" class="btn">Learn More</a>
+      </div>
+  </section>
 
 
 

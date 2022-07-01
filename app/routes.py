@@ -42,17 +42,18 @@ def akt():
 def airport_lighting():
     return render_template('/lighting_types/airport_lighting.html')
 
-@app.route('/highway_construction_lighting')
+@app.route('/lighting_types/highway_construction_lighting')
 def highway_construction_lighting():
-    return render_template('highway_construction_lighting.html')
+    return render_template('/lighting_types/highway_construction_lighting.html')
 
-@app.route('/marine_lighting')
+@app.route('/lighting_types/marine_lighting')
 def marine_lighting():
-    return render_template('marine_lighting.html')
+    return render_template('/lighting_types/marine_lighting.html')
 
-@app.route('/rairoad_lighting')
+@app.route('/lighting_types/railroad_lighting')
 def railroad_lighting():
-    return render_template('rairoad_lighting.html')
+    return render_template('/lighting_types/railroad_lighting.html')
+
 
 
 

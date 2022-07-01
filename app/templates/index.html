@@ -9,7 +9,7 @@
       <li>
         <div><a href="{{ url_for('airport_lighting') }}">
           <h2>Airport Lighting</h2>
-          </a> </div>
+          </a></div>
       </li>
       <li>
         <div> <a href="{{ url_for('highway_construction_lighting') }}">
@@ -31,23 +31,17 @@
   
 
 
-
-<!-- test  -->
-
-
 <section class="about-us sec-padd">
+
+<!-- MISSION STATEMENT -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <div class="text">
                     <h1>Our Mission</h1>
-
                     <p>The mission of Empco-Lite is to fully satisfy the expectations of our customers by 
-                    
                     producing the highest quality products on time, each and everytime, 
-
                     through the use of effective teamwork, employee involvement,
-
                     and a dedication to excellence in everything we do with a view of continuous improvement.</p>
                 </div>
             </div>
@@ -55,50 +49,115 @@
     </div>
 </section>
 
-<section class="section--primary--alt bg-image bg-image-2 pinside80">
-    <div class="about-container text--center">
-    <h3>Value Added Services</h3>
-        <div class="col-5 text--left">
-            <ul>
-                <li>Imprinting</li>
-                <li>Packaging</li>
-                <li>Assembly</li>
 
+<!-- FEATURED PRODUCT  -->
+
+    <div class="grid">
+
+        <section class=" grad-neutral mt50">
+        <ul class="slides">
+            <input type="radio" name="radio-btn" id="img-1" checked />
+            <li class="slide-container">
+            <div class="slide">
+                <img src="/static/model_2006/1.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+            </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-2" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/model_2006/3.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+            </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-3" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/model_2006/1.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+            </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-4" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/model_2006/14.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-3" class="prev">&#x2039;</label>
+                <label for="img-5" class="next">&#x203a;</label>
+            </div>
+            </li>
+    
+            <input type="radio" name="radio-btn" id="img-5" />
+            <li class="slide-container">
+                <div class="slide">
+                    <img src="/static/model_2006/18.jpg" />
+                </div>
+            <div class="nav">
+                <label for="img-4" class="prev">&#x2039;</label>
+                <label for="img-6" class="next">&#x203a;</label>
+            </div>
+            </li>
+
+
+    
+        </section>
+
+    
+        <section class="grad-neutral">
+        <div class="container mt0">
+            <h1 class="product-description">Featured Product</h1>
+            <h1>Model 2006+ Solar Assist</h1>
+            <a href="{{ url_for('model_630') }}" class="btn btn-outline mt20">View Product</a> 
+            <img class="right" src="/static/2696_generated.jpg" height="15%" width="15%">
+        </div>
+        
+        
+            
+            <ul class="mt100">
+                <li>Internal solar panels trickle charge D-cell Alkaline batteries
+                    to give a superior long lasting more reliable power source.</li>
+                <li>Battery life: 19-20 months on 4 alkaline D-cell batteries.</li>
+                <li>Yellow base is standard, other colors available upon
+                    request.</li>
+        
             </ul>
         </div>
+        </section>
 
-        <div class="col-5 text--left">
-            <ul>
-                <li>Insert Molding</li>
-                <li>Sonic Welding</li>
+        
 
-            </ul>
-        </div>
-
-        <div class="col-5 text--left">
-            <ul>
+  </div>
+  
 
 
-                <li>JIT Processing</li>
-                <li>Drop Shipping</li>
-            </ul>
-        </div>
-    </div>
-</section>
 
 
+<!-- WHY PEOPLE CHOOSE US -->
     <div class="section-space80">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="mb60 text-center section-title">
+                    <div class="mb60 mt40 text-center section-title">
                         <!-- section title start-->
                         <h1>Why People Choose Us</h1>
-                        <p>Suspendisse aliquet varius nunc atcibus lacus sit amet coed portaeri sque mami luctus viveed congue lobortis faucibus.</p>
                     </div>
                     <!-- /.section title start-->
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="bg-white bg-boxshadow">
@@ -106,42 +165,61 @@
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb20"><i class="icon-command  icon-4x icon-primary"></i></div>
-                                    <h3>Dedicated Specialists</h3>
-                                    <p>Duis eget diam quis elit erdiet alidvolutp terdum tfanissim non intwesollis eu mauris.</p>
+                                    <h3>Dedicated Leaders</h3>
+                                    <p>We've been industry leaders since 1968 - We Lead by Example</p>
                                     <a href="{{ url_for('contact') }}" class="btn btn-outline mt20">Meet the team</a> </div>
                             </div>
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb20"><i class="icon-cup  icon-4x icon-primary"></i></div>
-                                    <h3>Industry Leaders</h3>
-                                    <p>Integer facilisis fringilla dolor ut luctus lvinar felis miat velitliquam at fermentum orci.</p>
-                                    <a href="{{ url_for('about') }}" class="btn btn-outline mt20">about</a> </div>
+                                    <h3>Reliability</h3>
+                                    <p> Family-owned, Woman-owned, all products are made in America</p>
+                                    <a href="{{ url_for('about') }}" class="btn btn-outline mt20">about Empco-Lite</a> </div>
                             </div>
                             <div class="col-md-4 col-sm-12 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb20"><i class="icon-calculator  icon-4x icon-primary"></i></div>
                                     <h3>Pride in our Work</h3>
-                                    <p> Integer faisis fringilla dolor ut luctus nisi eneinar felis viverra dignissim fermentum orci.</p>
+                                    <p> We are committed to producting high-quality products</p>
                                     <a href="{{ url_for('process') }}" class="btn btn-outline mt20">Our Process</a> </div>
                             </div>
                         </div>
                     </div>
+                    <h3 class="subheading text-center pinside30 mt60">Empco-Lite has the most skilled and dedicated team of professionals in the lighting industry. With the stability of over 50 years in business, our core-values and our team are our most valued assets and the reason for our growth and success.</h3>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="text--center">
-        <div class="about-container">
-        <h3>Our Structure</h3>
-        <p>See how AKT Corporation, Elgin Molded, and Empco-Lite work side by side.</p>
-        <a href="{{ url_for('sister_companies') }}" class="btn">Learn More</a>
+
+    <!-- COMPLIMENTARY SERVICES -->
+
+
+    <section class="section--primary--alt bg-boxshadow">
+        <div class="container">
+        <h3 class="grad-primary">Complimentary Services</h3>
+            <div class="container flex-row  mt80 ">
+                    <p class="pdr40">Imprinting</p>
+                    <p class="pdr40">Packaging</p>
+                    <p class="pdr40">Assembly</p>
+                    <p class="pdr40">Insert Molding</p>
+                    <p class="pdr40">Sonic Welding</p>
+                    <p class="pdr40">JIT Processing</p>
+                    <p class="pdr40">Drop Shipping</p>
+            </div>
         </div>
     </section>
 
+
+
+
+<!-- SPONSORSHIPS -->
+
     <section class="text--center">
         <div class="about-container">
-        <h3>Sponsorships</h3>
+        <h3 class="capital-title">Sponsorships</h3>
+        <p>Empco-Lite is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership</p>
         <img src="/static/Safety.png" height="50%" width="50%">
         </div>
     </section>
