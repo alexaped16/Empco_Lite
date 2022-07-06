@@ -527,7 +527,7 @@ footer ul {
             justify-content: center;
   }
   
-  .product-line .col{
+  .product-line .product-col{
     width: calc(25% - 2rem);
     margin: 1rem;
     cursor: pointer;
@@ -540,8 +540,8 @@ footer ul {
               perspective: 1000px;
   }
   
-  .product-line .front,
-  .product-line .back{
+   .front,
+   .back{
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     border-radius: 10px;
@@ -563,7 +563,7 @@ footer ul {
   }
   
   .product-line .back{
-    background: #F2CB05;
+    background: #f2cb05c6;
     background: -webkit-linear-gradient(45deg,  #cedce7 0%,#F2CB05 100%);
     background: -o-linear-gradient(45deg,  #cedce7 0%,#F2CB05 100%);
     background: linear-gradient(45deg,  #cedce7 0%,#F2CB05 100%);
@@ -579,7 +579,7 @@ footer ul {
       content: '';
       display: block;
       opacity: .6;
-      background-color: rgba(0, 0, 0, 0.264);
+      background-color: rgba(0, 0, 0, 0.073);
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
@@ -692,7 +692,7 @@ footer ul {
 
 .product-description{
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px; 
+  font-size: 21px; 
 }
 
 .model{
@@ -854,6 +854,11 @@ footer ul {
       grid-template-columns: 1fr 1fr; 
   }
 
+
+.product-grid section:nth-of-type(3){
+  max-width: 100px;  
+}
+
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin-ext');
 
   .meetteam{
@@ -962,6 +967,10 @@ footer ul {
   justify-content: space-around;
 }
 
+.space-between{
+  justify-content: space-between;
+}
+
 
 
 
@@ -1000,6 +1009,9 @@ footer ul {
     .mt100 { margin-top: 100px; }
 
     .mr50 {margin-right: 50px;}
+    .ml50 {margin-left: 50px;}
+    .mr100 {margin-right: 100px;}
+    .ml100 {margin-left: 100px;}
     
     /*----------------
     less margin space from top
@@ -1209,7 +1221,7 @@ footer ul {
 
 /* test */
 
-a {
+  a {
     text-decoration: none;
   }
   a:hover {

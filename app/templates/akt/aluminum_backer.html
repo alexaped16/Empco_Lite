@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="grid bg-default">
+
+  <section class="mt50">
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+        <div class="slide">
+          <img src="/static/akt/aluminum_backing/AluminumBackerofAKTNo18CenterMountDelineator.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-6" class="prev">&#x2039;</label>
+          <label for="img-2" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+            <div class="slide">
+              <img src="/static/akt/aluminum_backing/AluminumBackerofAKTNo18CenterMountDelineator(1).jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-1" class="prev">&#x2039;</label>
+          <label for="img-3" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+
+
+
+
+  </section>
+
+
+  <section class="text-right">
+    <div class="container mt0">
+    <h1 class="product-description">Product Description</h1>
+    <p class="model">Aluminum Backing for Mount Delineator</p>
+    <p class="part-number">Part # No. 18 backing</p>
+    <div class="container flex-row space-between">
+        
+        <img class="mr50" src="/static/made-in-america-02.png" height="15%" width="15%">
+    </div>
+    <p class="specification">Specification:</p>
+      
+        <ul class="specifications">
+          <li>Available in plastic and aluminum backing. </li>
+
+        </ul>
+    </div>
+  </section>
+
+
+</div>
+
+
+{% endblock content %}
+

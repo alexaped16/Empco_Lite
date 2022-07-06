@@ -55,6 +55,85 @@ def railroad_lighting():
     return render_template('/lighting_types/railroad_lighting.html')
 
 
+#AKT
+
+@app.route('/akt/traffic_signal_lenses')
+def traffic_signal_lenses():
+    return render_template('/akt/traffic_signal_lenses.html')
+
+@app.route('/akt/no18CenterMountDelineator')
+def no18CenterMountDelineator():
+    return render_template('/akt/no18CenterMountDelineator.html')
+
+@app.route('/akt/567_guardrail_delineator')
+def guardrail_delineator():
+    return render_template('/akt/567_guardrail_delineator.html')
+
+@app.route('/akt/aluminum_backer')
+def aluminum_backer():
+    return render_template('/akt/aluminum_backer.html')
+
+@app.route('/akt/bituminous_pavement_marker_adhesive')
+def bituminous_pavement_marker_adhesive():
+    return render_template('/akt/bituminous_pavement_marker_adhesive.html')
+
+@app.route('/akt/prismatic_retroreflective_pavement_marker')
+def prismatic_retroreflective_pavement_marker():
+    return render_template('/akt/prismatic_retroreflective_pavement_marker.html')
+
+@app.route('/akt/concrete_barrier_wall_marker')
+def concrete_barrier_wall_marker():
+    return render_template('/akt/concrete_barrier_wall_marker')
+
+@app.route('/akt/butyl_pads')
+def butyl_pads():
+    return render_template('/akt/butyl_pads.html')
+
+@app.route('/akt/model_400_led_pc')
+def model_400_led_pc():
+    return render_template('/akt/model_400_led_pc.html')
+
+
+# HIGHWAY LIGHTS
+
+@app.route('/highway/model2006plus_solar_assist')
+def model2006plus_solar_assist():
+    return render_template('/highway/model2006plus_solar_assist.html')
+
+@app.route('/highway/S_solar_2006')
+def S_solar_2006():
+    return render_template('/highway/S_solar_2006.html')
+
+@app.route('/highway/model2006')
+def model2006():
+    return render_template('/highway/model2006.html')
+
+@app.route('/highway/audible_device_model_400_ADA')
+def audible_device_model_400_ADA():
+    return render_template('/highway/audible_device_model_400_ADA.html')
+
+@app.route('/highway/model212_3_S_solar_assist')
+def model212_3_S_solar_assist():
+    return render_template('/highway/model212_3_S_solar_assist.html')
+
+@app.route('/highway/model212_3_solar')
+def model212_3_solar():
+    return render_template('/highway/model212_3_solar.html')
+
+@app.route('/highway/M212_3LW')
+def M212_3LW():
+    return render_template('/highway/M212_3LW.html')
+
+@app.route('/highway/LED_PC')
+def LED_PC():
+    return render_template('/highway/LED_PC.html')
+
+@app.route('/highway/sequential_device')
+def sequential_device():
+    return render_template('/highway/sequential_device.html')
+
+
+
 
 
 # AIRPORT PRODUCTS 
@@ -62,3 +141,68 @@ def railroad_lighting():
 @app.route('/airport/model_630')
 def model_630():
     return render_template('/airport/model_630.html')
+
+@app.route('/airport/model_630_solar')
+def model_630_solar():
+    return render_template('/airport/model_630_solar.html')
+
+@app.route('/airport/model601_solar_airport_light')
+def model601_solar_airport_light():
+    return render_template('/airport/model601_solar_airport_light.html')
+
+
+@app.route('/airport/model2006D_Cell_Solar_Assist')
+def model2006D_Cell_Solar_Assist():
+    return render_template('/airport/model2006D_Cell_Solar_Assist.html')
+
+# RAILROAD PRODUCTS
+
+@app.route('/railroad/blue_flag_light')
+def blue_flag_light():
+    return render_template('/railroad/blue_flag_light.html')
+
+@app.route('/railroad/blue_flag_strobe_light')
+def blue_flag_strobe_light():
+    return render_template('/railroad/blue_flag_strobe_light.html')
+
+
+# MARINE PRODUCTS 
+
+@app.route('/marine/model400_led_mooring_light')
+def model400_led_mooring_light():
+    return render_template('/marine/model400_led_mooring_light.html')
+
+
+# REFLECTORS 
+
+@app.route('/reflectors/EBMT')
+def EBMT():
+    return render_template('/reflectors/EBMT.html')
+
+@app.route('/reflectors/EBM3x4')
+def EBM3x4():
+    return render_template('/reflectors/EBM3x4.html')
+
+@app.route('/reflectors/GRD-S')
+def GRD_S():
+    return render_template('/reflectors/GRD-S.html')
+
+
+
+# Mounting Brackets 
+
+@app.route('/mounting_brackets/center_mounting_bracket')
+def center_mounting_bracket():
+    return render_template('/mounting_brackets/center_mounting_bracket.html')
+
+@app.route('/mounting_brackets/ZMountingBracket')
+def ZMountingBracket():
+    return render_template('/mounting_brackets/ZMountingBracket.html')
+
+@app.route('/mounting_brackets/right_MountingBracket')
+def right_MountingBracket():
+    return render_template('/mounting_brackets/right_MountingBracket.html')
+
+@app.route('/mounting_brackets/left_MountingBracket')
+def left_MountingBracket():
+    return render_template('/mounting_brackets/left_MountingBracket.html')

@@ -4,30 +4,32 @@
 {% block content %}
 
   
-  <div class="accordion">
+<div class="accordion">
     <ul>
-      <li>
+        <li>
         <div><a href="{{ url_for('airport_lighting') }}">
-          <h2>Airport Lighting</h2>
-          </a></div>
-      </li>
-      <li>
-        <div> <a href="{{ url_for('highway_construction_lighting') }}">
-          <h2>Highway Lighting </h2>
-          </a> </div>
-      </li>
-      <li>
+            <h2>Airport Lighting</h2>
+            </a></div>
+        </li>
+        <li>
         <div> <a href="{{ url_for('marine_lighting') }}">
-          <h2>Marine Lighting</h2>
-          </a> </div>
-      </li>
-      <li>
+            <h2>Marine Lighting</h2>
+            </a> </div>
+        </li>
+        <li>
         <div> <a href="{{ url_for('railroad_lighting') }}">
-          <h2>Railroad Lighting</h2>
-          </a> </div>
-      </li>
+            <h2>Railroad Lighting</h2>
+            </a> </div>
+        </li>
+
+        <li>
+        <div> <a href="{{ url_for('highway_construction_lighting') }}">
+            <h2>Highway/Construction </h2>
+            </a> </div>
+        </li>
+        
     </ul>
-  </div>
+</div>
   
 
 
@@ -59,7 +61,7 @@
             <input type="radio" name="radio-btn" id="img-1" checked />
             <li class="slide-container">
             <div class="slide">
-                <img src="/static/model_2006/1.jpg" />
+                <img src="/static/highway/2006solarplus/Model2006SolarAssist3.jpg" />
                 </div>
             <div class="nav">
                 <label for="img-6" class="prev">&#x2039;</label>
@@ -70,7 +72,7 @@
             <input type="radio" name="radio-btn" id="img-2" />
             <li class="slide-container">
                 <div class="slide">
-                    <img src="/static/model_2006/3.jpg" />
+                    <img src="/static/highway/2006solarplus/Model2006solarAssist1.jpg" />
                 </div>
             <div class="nav">
                 <label for="img-1" class="prev">&#x2039;</label>
@@ -81,7 +83,7 @@
             <input type="radio" name="radio-btn" id="img-3" />
             <li class="slide-container">
                 <div class="slide">
-                    <img src="/static/model_2006/1.jpg" />
+                    <img src="/static/highway/2006solarplus/Model2006SolarAssist.jpg" />
                 </div>
             <div class="nav">
                 <label for="img-2" class="prev">&#x2039;</label>
@@ -89,27 +91,9 @@
             </div>
             </li>
     
-            <input type="radio" name="radio-btn" id="img-4" />
-            <li class="slide-container">
-                <div class="slide">
-                    <img src="/static/model_2006/14.jpg" />
-                </div>
-            <div class="nav">
-                <label for="img-3" class="prev">&#x2039;</label>
-                <label for="img-5" class="next">&#x203a;</label>
-            </div>
-            </li>
+            
     
-            <input type="radio" name="radio-btn" id="img-5" />
-            <li class="slide-container">
-                <div class="slide">
-                    <img src="/static/model_2006/18.jpg" />
-                </div>
-            <div class="nav">
-                <label for="img-4" class="prev">&#x2039;</label>
-                <label for="img-6" class="next">&#x203a;</label>
-            </div>
-            </li>
+
 
 
     
@@ -119,9 +103,9 @@
         <section class="grad-neutral">
         <div class="container mt0">
             <h1 class="product-description">Featured Product</h1>
-            <h1>Model 2006+ Solar Assist</h1>
-            <a href="{{ url_for('model_630') }}" class="btn btn-outline mt20">View Product</a> 
-            <img class="right" src="/static/2696_generated.jpg" height="15%" width="15%">
+            <h1 class="mb30">Model 212-3S Solar Assist</h1>
+            <img class="mr100" id="nav-logo" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
+            <a href="{{ url_for('model212_3_S_solar_assist') }}" class="btn btn-outline mt20">View Product</a> 
         </div>
         
         
@@ -164,21 +148,24 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb20"><i class="icon-command  icon-4x icon-primary"></i></div>
+                                    <div class="mb10"><i class="icon-command  icon-4x icon-primary"></i></div>
+                                    <img class="mb20" src="/static/icons-04.png" height="50%" width="50%">
                                     <h3>Dedicated Leaders</h3>
-                                    <p>We've been industry leaders since 1968 - We Lead by Example</p>
+                                    <p>Industry leaders since 1968 - We Lead by Example</p>
                                     <a href="{{ url_for('contact') }}" class="btn btn-outline mt20">Meet the team</a> </div>
                             </div>
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb20"><i class="icon-cup  icon-4x icon-primary"></i></div>
+                                    <div class="mb10"><i class="icon-cup  icon-4x icon-primary"></i></div>
+                                    <img  class="mb20" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
                                     <h3>Reliability</h3>
                                     <p> Family-owned, Woman-owned, all products are made in America</p>
                                     <a href="{{ url_for('about') }}" class="btn btn-outline mt20">about Empco-Lite</a> </div>
                             </div>
                             <div class="col-md-4 col-sm-12 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb20"><i class="icon-calculator  icon-4x icon-primary"></i></div>
+                                    <div class="mb10"><i class="icon-calculator  icon-4x icon-primary"></i></div>
+                                    <img class="mb20" src="/static/icons-02.png" height="50%" width="50%">
                                     <h3>Pride in our Work</h3>
                                     <p> We are committed to producting high-quality products</p>
                                     <a href="{{ url_for('process') }}" class="btn btn-outline mt20">Our Process</a> </div>
@@ -218,9 +205,14 @@
 
     <section class="text--center">
         <div class="about-container">
-        <h3 class="capital-title">Sponsorships</h3>
+        <h3 class="capital-title">Proud Members Of</h3>
         <p>Empco-Lite is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership</p>
-        <img src="/static/Safety.png" height="50%" width="50%">
+            <div class="container flex-row">
+                <img src="/static/memberships-03.png" height="20%" width="20%">
+                <img src="/static/memberships-04.png" height="20%" width="20%">
+                <img src="/static/memberships2-01.png" height="20%" width="20%">
+                <img src="/static/memberships2-02.png" height="20%" width="20%">
+            </div>
         </div>
     </section>
 

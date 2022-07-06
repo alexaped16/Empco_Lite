@@ -18,7 +18,8 @@
 
     <nav class="navbar">
         <div class="topBar">
-            <img id="nav-logo" src="/static/Empco-logo-web-07.png" >
+            <img id="nav-logo" src="/static/Empco-Lite-04.png" height="70%" width="70%">
+            <img id="nav-logo" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
         </div>
             <i class="uil uil-bars toggle"></i>
         </div>
@@ -27,6 +28,7 @@
             <li><a href="{{ url_for('about') }}">About</a></li>
             <li><a href="{{ url_for('product_line') }}">Product Line</a>
             <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        </ul>
             
 
     </nav>
@@ -72,7 +74,7 @@
                                 <i class="far fa-envelope-open"></i>
                                 <div class="cta-text">
                                     <h4>Mail us</h4>
-                                    <span>sales@elginmolded.com</span>
+                                    <span>sales@empco-lite.com</span>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +85,7 @@
                         <div class="col-xl-4 col-lg-4 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="{{ url_for('index') }}"><img src="/static/Empco-logo-web-07.png" class="img-fluid" alt="logo"></a>
+                                    <a href="{{ url_for('index') }}"><img src="/static/Empco-Lite-04.png" class="img-fluid" alt="logo"></a>
                                 </div>
                                 <div class="footer-text">
                                     <p>Our goal is to provide the highest quality lighting and complementary products at competitive prices, always keeping the customer in mind. </p>
@@ -99,9 +101,9 @@
                                 <ul>
                                     <li><a href="#">AKT Corporation</a></li>
                                     <li><a href="{{ url_for('airport_lighting') }}">Airport Lighting</a></li>
-                                    <li><a href="#">Get a Quote</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Get a Quote</a></li>
                                     <li><a href="{{ url_for('highway_construction_lighting') }}">Highway Construction</a></li>
-                                    <li><a href="#">Expert Team</a></li>
+                                    <li><a href="{{ url_for('sister_companies') }}">Divisions</a></li>
                                     <li><a href="{{ url_for('marine_lighting') }}">Marine Lighting</a></li>
                                     <li><a href="#">Elgin Molded Plastics</a></li>
                                     <li><a href="{{ url_for('railroad_lighting') }}">Railroad Lighting</a></li>
@@ -132,7 +134,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                             <div class="copyright-text">
-                                <p>Copyright &copy; 2022, Website Design & Branding <a href="#">Laids Design</a></p>
+                                <p>Website Design & Branding <a href="https://laids.herokuapp.com/">Laids Design</a></p>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
