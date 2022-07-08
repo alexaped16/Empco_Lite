@@ -73,6 +73,10 @@ def guardrail_delineator():
 def aluminum_backer():
     return render_template('/akt/aluminum_backer.html')
 
+@app.route('/akt/181_guardrail_delineator')
+def guardrail_delineator_181():
+    return render_template('/akt/181_guardrail_delineator.html')
+
 @app.route('/akt/bituminous_pavement_marker_adhesive')
 def bituminous_pavement_marker_adhesive():
     return render_template('/akt/bituminous_pavement_marker_adhesive.html')

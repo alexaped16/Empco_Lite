@@ -18,7 +18,7 @@
 
     <nav class="navbar">
         <div class="topBar">
-            <img id="nav-logo" src="/static/Empco-Lite-04.png" height="70%" width="70%">
+            <img id="nav-logo" src="/static/Empco-Lite-logo-unofficial-03.png" height="70%" width="70%">
             <img id="nav-logo" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
         </div>
             <i class="uil uil-bars toggle"></i>
@@ -26,7 +26,7 @@
         <ul class="navMenu">
             <li><a href="{{ url_for('index') }}">Home</a></li>
             <li><a href="{{ url_for('about') }}">About</a></li>
-            <li><a href="{{ url_for('product_line') }}">Product Line</a>
+            <li><a href="{{ url_for('product_line') }}">Product Line</a></li>
             <li><a href="{{ url_for('contact') }}">Contact</a></li>
         </ul>
             
@@ -84,10 +84,10 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 mb-50">
                             <div class="footer-widget">
-                                <div class="footer-logo">
+                                <div class="footer-logo mt-40">
                                     <a href="{{ url_for('index') }}"><img src="/static/Empco-Lite-04.png" class="img-fluid" alt="logo"></a>
                                 </div>
-                                <div class="footer-text">
+                                <div class="footer-text mt-40">
                                     <p>Our goal is to provide the highest quality lighting and complementary products at competitive prices, always keeping the customer in mind. </p>
                                 </div>
 
@@ -101,7 +101,7 @@
                                 <ul>
                                     <li><a href="#">AKT Corporation</a></li>
                                     <li><a href="{{ url_for('airport_lighting') }}">Airport Lighting</a></li>
-                                    <li><a href="{{ url_for('contact') }}">Get a Quote</a></li>
+                                    <li><a href="{{ url_for('contact') }}">Meet the Team</a></li>
                                     <li><a href="{{ url_for('highway_construction_lighting') }}">Highway Construction</a></li>
                                     <li><a href="{{ url_for('sister_companies') }}">Divisions</a></li>
                                     <li><a href="{{ url_for('marine_lighting') }}">Marine Lighting</a></li>
@@ -113,16 +113,14 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                             <div class="footer-widget">
                                 <div class="footer-widget-heading">
-                                    <h3>Request a Quote</h3>
+                                    <h3>Get a Quote</h3>
                                 </div>
                                 <div class="footer-text mb-25">
                                     <p>Providing services since the 1960's. Trust our expert sales team to provide to solutions you need.</p>
                                 </div>
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Email Address">
-                                        <button><i class="fab fa-telegram-plane"></i></button>
-                                    </form>
+                                    <div class="subscribe-form">
+                                        <a href="{{ url_for('contact') }}"><i class="fab fa-telegram-plane"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

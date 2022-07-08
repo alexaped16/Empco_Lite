@@ -306,21 +306,23 @@ footer ul {
   position: relative;
   overflow: hidden;
 }
-.subscribe-form input {
+.subscribe-form a {
   width: 100%;
   padding: 14px 28px;
-  background: #D9D9D9; 
-  border: 1px solid #2E2E2E;
+  background: #F29F05;  
+  border: 1px solid #F29F05; 
   color: #fff;
 }
+
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #F29F05; 
-    padding: 13px 20px;
-    border: 1px solid #F29F05; 
-    top: 0;
+  position: absolute;
+  left: 0;
+  background: #F29F05;  
+  padding: 13px 20px;
+  border: 1px solid #F29F05; 
+  top: 0;
 }
+
 .subscribe-form button i {
   color: #fff;
   font-size: 22px;
@@ -1730,4 +1732,159 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
 	background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* test */
+
+.image-effect-container {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.image-effect-wrapper {
+  width: 33.3%;
+  height: 100%;
+  padding: 10px;
+}
+
+.image-effect-name {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.image-effect-namename:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 10px);
+  height: 1px;
+  background-color: #000;
+  bottom: -4px;
+  left: 0;
+}
+
+.w-content:hover {
+  opacity: 0.8;
+}
+.w-content:hover .frame {
+  border-color: #fff;
+  transition: color 0.3s ease-in-out, all 0.3s ease-in-out;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+}
+
+.postcard h2 {
+  top: 50%;
+  text-align: left;
+  transform: translate3d(50px, 20px, 0);
+}
+
+.box {
+  position: relative;
+  max-height: 300px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
+}
+.box .hide {
+  opacity: 0;
+}
+.box .frame {
+  position: absolute;
+  border: 1px solid #fff;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box h2, .box p {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  width: 100%;
+  transition: opacity 0.2s, transform 0.3s;
+}
+.box h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.box p {
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.box:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box:hover:before {
+  transition: all 0.3s ease-in-out;
+}
+.box img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box img:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.zoom-in h2 {
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: center;
+  margin: 0;
+}
+.zoom-in p {
+  text-align: center;
+  top: calc(50% + 40px);
+  transition: all 0.3s ease;
+  transform: scale(1.8);
+  opacity: 0;
+}
+.zoom-in:hover img {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
+.zoom-in:hover p {
+  transform: scale(1);
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.w-content .frame {
+  width: calc(100% - 100px);
+  height: calc(100% - 100px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: transparent;
+}
+.w-content h2 {
+  margin-top: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: center;
+  letter-spacing: 1px;
 }
