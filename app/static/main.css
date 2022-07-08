@@ -91,7 +91,8 @@ li > a:after { content:  ' '; }
 li > a:only-child:after { content: ''; }
 
 .navbar{
-    background:white; 
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0.4234068627450981) 58%, rgba(218,215,215,0.6306897759103641) 79%, rgba(242,231,75,1) 98%); 
     display: flex;
     align-items: center;
     justify-content: space-between;
