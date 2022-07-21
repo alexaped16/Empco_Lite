@@ -3,22 +3,30 @@
 
 {% block content %}
 
+<section id="intro-animation" class="hero">
+    <h2 class="hero__title">
+        <span>
+            About Empco-Lite
+            
+
+        </span>
+    </h2>
+    <p class="hero__copy">
+        At Empco-Lite, we are proud to be soley focused on manufacturing and supplying airport, marine, railroad, and highway lighting products. When you turn to Empco-Lite for your lighting needs, you’ll discover we are the ideal size. 
+            We are large enough to handle your work, but small enough that you wont get lost in the shuffle. Excellent customer service is only part of our deal. The real magic happens when excellent customer service meets high-quality products, which is exactly why our products are trusted by the biggest names in the industry, like the Department of Transportation and Highway Contractors. </p>
+
+</section>
+
 <span id="about">
+
+    <div class="big-image-quality">
+        <div class="overlay">
+          <h1>Quality With Integrity</h1>
+          
+        </div>
+    </div>
     
-    <section class="neutral-primary ">
-        <div class="about-container">
-        <div class="col-3 text--center">
-            <img src="/static/1.jpg" alt="" class="details-img--ball"/>
-        </div>
-        <div class="col-7 details">
-            <h3>About Empco-Lite</h3>
-            <p>Empco-Lite has been involved in the traffic safety industry since the 1960’s. Our goal is to provide
-                the highest quality lighting and complementary products at competitive prices, always keeping
-                the customer in mind. All of our products are made in America and molded by Elgin Molded
-                Plastics.</p>
-        </div>
-        </div>
-    </section>
+
     
     <section class="section--dark text-center pinside80">
         <div class="about-container">
@@ -45,31 +53,42 @@
         </div>
         </div>
     </section>
-
-    <section class="bg-default text--center pinside80">
-        <h3>See how it all comes together</h3>
-        <a href="{{ url_for('sister_companies') }}" class="btn">Our Divisions</a>
-        </div>
-    </section>
-
-    <section class="grad-neutral text--center pinside80">
-        <div class="container">
-        <h3 class="grad-heading" >Mission Statement</h3>
-        <p>The mission of Elgin Molded Plastics, Empco-Lite, and AKT Corporation is to fully satisfy the
-            expectations of our customers by producing the highest quality products on time, each and every
-            time, through the use of effective teamwork, employee involvement, and a dedication to excellence
-            in everything we do with a view of continuous improvement.</p>
-        </div>
-    </section>
-
-    <section class="text--center">
-        <div class="about-container">
-        <h3>Dedicated to "Old World" Apprenticeship</h3>
-        <a href="{{ url_for('process') }}" class="btn">Learn More</a>
-        </div>
-    </section>
     
 </span>
+
+<div class="grid">
+
+
+        <section class="">
+            <div class="container left">
+            <h1 class="mission-title" >Mission Statement</h1>
+            <p class="mission-statement">The mission of Elgin Molded Plastics, Empco-Lite, and AKT Corporation is to fully satisfy the
+                expectations of our customers by producing the highest quality products on time, each and every
+                time, through the use of effective teamwork, employee involvement, and a dedication to excellence
+                in everything we do with a view of continuous improvement.</p>
+            </div>
+        </section>
+
+        <section class="bg-default text--center  align-center font">
+            <div>
+                <h3>See how it all comes together</h3>
+                <a href="{{ url_for('sister_companies') }}" class="btn">Our Divisions</a>
+            </div>
+        </section>
+
+    
+</div>
+
+
+<div class="big-image-oldworld">
+    <div class="overlay-oldworld">
+        <div class="oldworld-container">
+            <h1>"Old-World" Apprenticeship</h1>
+            <h3>AKT and Empco-lite products are made right in our own turf, at Elgin Molded</h3>
+            <a href="{{ url_for('process') }}" class="btn-2">Learn More</a>
+        </div>
+    </div>
+</div>
   
 
 

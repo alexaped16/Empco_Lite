@@ -55,6 +55,35 @@ def railroad_lighting():
     return render_template('/lighting_types/railroad_lighting.html')
 
 
+
+# Marine Lighting 
+
+@app.route('/marine/load_light')
+def load_light():
+    return render_template('/marine/load_light.html')
+
+@app.route('/marine/barge_light')
+def barge_light():
+    return render_template('/marine/barge_light.html')
+
+@app.route('/marine/dredge_light')
+def dredge_light():
+    return render_template('/marine/dredge_light.html')
+
+@app.route('/marine/solar_dredge_light')
+def solar_dredge_light():
+    return render_template('/marine/solar_dredge_light.html')
+
+@app.route('/marine/pilot_location_light')
+def pilot_location_light():
+    return render_template('/marine/pilot_location_light.html')
+
+@app.route('/marine/model400_led_mooring_light')
+def model400_led_mooring_light():
+    return render_template('/marine/model400_led_mooring_light.html')
+
+
+
 #AKT
 
 @app.route('/akt/traffic_signal_lenses')
@@ -169,12 +198,6 @@ def blue_flag_light():
 def blue_flag_strobe_light():
     return render_template('/railroad/blue_flag_strobe_light.html')
 
-
-# MARINE PRODUCTS 
-
-@app.route('/marine/model400_led_mooring_light')
-def model400_led_mooring_light():
-    return render_template('/marine/model400_led_mooring_light.html')
 
 
 # REFLECTORS 

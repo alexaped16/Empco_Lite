@@ -104,13 +104,13 @@
         <div class="container mt0">
             <h1 class="product-description">Featured Product</h1>
             <h1 class="mb30">Model 212-3S Solar Assist</h1>
-            <img class="mr100" id="nav-logo" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
+            <img class="mr100" id="nav-logo" src="/static/made-in-usa-stamp.png" height="50%" width="50%">
             <a href="{{ url_for('model212_3_S_solar_assist') }}" class="btn btn-outline mt20">View Product</a> 
         </div>
         
         
             
-            <ul class="mt100">
+            <ul class="mt100 pdr80">
                 <li>Internal solar panels trickle charge D-cell Alkaline batteries
                     to give a superior long lasting more reliable power source.</li>
                 <li>Battery life: 19-20 months on 4 alkaline D-cell batteries.</li>
@@ -149,7 +149,7 @@
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb10"><i class="icon-command  icon-4x icon-primary"></i></div>
-                                    <img class="mb20" src="/static/icons-04.png" height="50%" width="50%">
+                                    <img class="mb20" src="/static/icons/icons-04.png" height="50%" width="50%">
                                     <h3>Dedicated Leaders</h3>
                                     <p>Industry leaders since 1968 - We Lead by Example</p>
                                     <a href="{{ url_for('contact') }}" class="btn btn-outline mt20">Meet the team</a> </div>
@@ -157,7 +157,7 @@
                             <div class="col-md-4 col-sm-6 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb10"><i class="icon-cup  icon-4x icon-primary"></i></div>
-                                    <img  class="mb20" src="/static/MADE_IN_EEUU.jpg" height="50%" width="50%">
+                                    <img  class="mb20" src="/static/icons/ribbon-icons-02.png" height="50%" width="50%">
                                     <h3>Reliability</h3>
                                     <p> Family-owned, Woman-owned, all products are made in America</p>
                                     <a href="{{ url_for('about') }}" class="btn btn-outline mt20">about Empco-Lite</a> </div>
@@ -165,7 +165,7 @@
                             <div class="col-md-4 col-sm-12 nopadding col-xs-12">
                                 <div class="bg-white pinside60 number-block outline">
                                     <div class="mb10"><i class="icon-calculator  icon-4x icon-primary"></i></div>
-                                    <img class="mb20" src="/static/icons-02.png" height="50%" width="50%">
+                                    <img class="mb20" src="/static/icons/icons-02.png" height="50%" width="50%">
                                     <h3>Pride in our Work</h3>
                                     <p> We are committed to producting high-quality products</p>
                                     <a href="{{ url_for('process') }}" class="btn btn-outline mt20">Our Process</a> </div>
@@ -180,23 +180,76 @@
     </div>
 
 
-    <!-- COMPLIMENTARY SERVICES -->
 
+        <!-- Our Products -->
 
-    <section class="section--primary--alt bg-boxshadow">
-        <div class="container">
-        <h3 class="grad-primary">Complimentary Services</h3>
-            <div class="container flex-row  mt80 ">
-                    <p class="pdr40">Imprinting</p>
-                    <p class="pdr40">Packaging</p>
-                    <p class="pdr40">Assembly</p>
-                    <p class="pdr40">Insert Molding</p>
-                    <p class="pdr40">Sonic Welding</p>
-                    <p class="pdr40">JIT Processing</p>
-                    <p class="pdr40">Drop Shipping</p>
+        <section class="grad-primary bg-boxshadow ">
+            <div class="container">
+    
+    
+                <div class="grid-background-none">
+    
+    
+                    <div id=product-index-container>
+                        We Offer  
+                        <div id=flip>
+                        <div><div>Airport Lights</div></div>
+                        <div><div>Construction Lights</div></div>
+                        <div><div>Marine Lights</div></div>
+                        <div><div>Barge Lights</div></div>
+                        </div>
+                        And More!  
+    
+                        <div><a href="{{ url_for('product_line') }}" class="btn-2">View Products</a></div>
+    
+                    </div>
+    
+    
+                    
+                    <div class="index-products">
+                        
+    
+                        <div class="wrapper">
+                            <div class="box blury-card" >
+                                <img 
+                                src="/static/marine/load_light/LoadLight.jpg
+                                " alt="img">
+                                <div class="frame">
+                                    <h2>High Quality</h2>
+                                    <p>High Performance</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 text--center">
+                            </div>
+                        
+                        <div class="col-7 details">
+    
+                            
+                        </div>
+                    </div>
+                    
+    
+                    </div>
+    
+                
+            
+                <div class="container flex-row  mt80 ">
+                        <p class="pdr40"></p>
+                        <p class="pdr40">Barricade Lights</p>
+                        <p class="pdr40">Reflectors</p>
+                        <p class="pdr40">Mounting Brackets</p>
+                        <p class="pdr40">Mooring Lights</p>
+                        <p class="pdr40">LED Construction Lights</p>
+                        <p class="pdr40">Portable Construction Lights</p>
+                        <p class="pdr40">Blue Flag Lights</p>
+                        <p class="pdr40">Solar Airport Lights</p>
+                        <p class="pdr40">Barge Lights</p>
+                        <p class="pdr40">ADA Devices</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
 
 
 
@@ -207,11 +260,11 @@
         <div class="about-container">
         <h3 class="capital-title">Proud Members Of</h3>
         <p>Empco-Lite is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership</p>
-            <div class="container flex-row">
-                <img src="/static/memberships-03.png" height="20%" width="20%">
-                <img src="/static/memberships-04.png" height="20%" width="20%">
-                <img src="/static/memberships2-01.png" height="20%" width="20%">
-                <img src="/static/memberships2-02.png" height="20%" width="20%">
+            <div class="grid-4">
+                <img src="/static/memberships/memberships-03.png" height="20%" width="20%">
+                <img src="/static/memberships/memberships-04.png" height="20%" width="20%">
+                <img src="/static/memberships/memberships2-01.png" height="20%" width="20%">
+                <img src="/static/memberships/memberships2-02.png" height="20%" width="20%">
             </div>
         </div>
     </section>

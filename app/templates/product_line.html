@@ -3,12 +3,14 @@
 
 {% block content %}
 
-<section class="text--center grad-neutral">
-    <div class="container">
-        <h1 class="grad-heading">Product Line</h1>
-        <p>We have ALL your lighting needs covered<p>
-    </div>
-</section>
+<div class="big-image-product-line">
+  <div class="overlay-product-line">
+      <div class="product-line-container">
+          <h1>Product Line</h1>
+          <h3>Timeless Products With A Fine Regard For Detail</h3>
+      </div>
+  </div>
+</div>
 
 
 
@@ -16,14 +18,14 @@
 <section class="hero-section ">
     <div class="card-grid mt80">
       <a class="card" href="{{ url_for('airport_lighting') }}">
-        <div class="card__background" style="background-image: url(/static/pexels-igor-starkov-761981.jpg)"></div>
+        <div class="card__background" style="background-image: url(/static/pexels/pexels-igor-starkov-761981.jpg)"></div>
         <div class="card__content">
           
           <h3 class="card__heading">Airport Lighting</h3>
         </div>
       </a>
       <a class="card" href="{{ url_for('railroad_lighting') }}">
-        <div class="card__background" style="background-image: url(/static/pexels-trace-hudson-2365701.jpg)"></div>
+        <div class="card__background" style="background-image: url(/static/pexels/pexels-trace-hudson-2365701.jpg)"></div>
         <div class="card__content">
           
           <h3 class="card__heading">Railroad Lighting</h3>
@@ -31,7 +33,7 @@
       </a>
 
       <a class="card" href="{{ url_for('marine_lighting') }}">
-        <div class="card__background" style="background-image: url(/static/pexels-albin-berlin-906982.jpg)"></div>
+        <div class="card__background" style="background-image: url(/static/pexels/pexels-albin-berlin-906982.jpg)"></div>
         <div class="card__content">
           
           <h3 class="card__heading">Marine Lighting</h3>
@@ -39,24 +41,16 @@
       </a>
 
       <a class="card" href="{{ url_for('highway_construction_lighting') }}">
-        <div class="card__background" style="background-image: url(/static/pexels-ave-calvar-martinez-4705093.jpg)"></div>
+        <div class="card__background" style="background-image: url(/static/pexels/pexels-ave-calvar-martinez-4705093.jpg)"></div>
         <div class="card__content">
           
-          <h3 class="card__heading">Highway+ Construction</h3>
+          <h3 class="card__heading">Highway Lighting</h3>
         </div>
       </a>
     
 </section>
 
-    <!-- SISTER COMPANIES -->
 
-    <section class="text--center section--primary--alt mb80">
-      <div class="">
-      <h3 class="grad-primary">Our Structure</h3>
-      <p>See how Empco-Lite, AKT Corporation, and Elgin Molded work side by side to supply a diverse product line</p>
-      <a href="{{ url_for('sister_companies') }}" class="btn">Learn More</a>
-      </div>
-  </section>
 
 
 
