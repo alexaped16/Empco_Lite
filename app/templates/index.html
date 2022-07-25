@@ -24,7 +24,7 @@
 
         <li>
         <div> <a href="{{ url_for('highway_construction_lighting') }}">
-            <h2>Highway/Construction </h2>
+            <h2>Construction Lighting</h2>
             </a> </div>
         </li>
         
@@ -39,6 +39,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
+                
                 <div class="text">
                     <h1>Our Mission</h1>
                     <p>The mission of Empco-Lite is to fully satisfy the expectations of our customers by 
@@ -50,6 +51,85 @@
         </div>
     </div>
 </section>
+
+       <!-- Our Products -->
+
+       <section class="grad-primary bg-boxshadow ">
+        <div class="container">
+            <div class="grid-background-none">
+
+                <div id=product-index-container>
+                    We Offer  
+                    <div id=flip>
+                    <div><div>Airport Lights</div></div>
+                    <div><div>Construction Lights</div></div>
+                    <div><div>Marine Lights</div></div>
+                    <div><div>Barge Lights</div></div>
+                    </div>
+                    And More!  
+
+                    <div><a href="{{ url_for('product_line') }}" class="btn-2">View Products</a></div>
+
+                </div>
+
+
+                
+                <div class="index-products">
+                    
+
+                    <div class="wrapper">
+                        <div class="box blury-card" >
+                            <img 
+                            src="/static/marine/load_light/LoadLight.jpg
+                            " alt="img">
+                            <div class="frame">
+                                <h2>High Quality</h2>
+                                <p>High Performance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 text--center">
+                        </div>
+                    
+                    <div class="col-7 details">
+
+                        
+                    </div>
+                </div>
+                
+
+                </div>
+
+            
+        
+            <div class="container flex-row  mt80 ">
+                    <p class="pdr40"></p>
+                    <p class="pdr40">Barricade Lights</p>
+                    <p class="pdr40">Reflectors</p>
+                    <p class="pdr40">Mounting Brackets</p>
+                    <p class="pdr40">Mooring Lights</p>
+                    <p class="pdr40">LED Construction Lights</p>
+                    <p class="pdr40">Portable Construction Lights</p>
+                    <p class="pdr40">Blue Flag Lights</p>
+                    <p class="pdr40">Solar Airport Lights</p>
+                    <p class="pdr40">Barge Lights</p>
+                    <p class="pdr40">ADA Devices</p>
+            </div>
+        </div>
+    </section>
+
+
+                <!-- WOMAN-OWNED Business -->
+  <section class="section--dark text-center pinside80">
+    <div class="about-container">
+        <div>
+            <h1>Proud to be a Woman-Owned Business!</h1>
+            <img  class="" src="/static/woman-icons-03.png" height="20%" width="20%">
+        </div>
+    </div>
+</section>
+
+
 
 
 <!-- FEATURED PRODUCT  -->
@@ -91,13 +171,8 @@
             </div>
             </li>
     
-            
-    
-
-
-
-    
         </section>
+
 
     
         <section class="grad-neutral">
@@ -120,146 +195,23 @@
             </ul>
         </div>
         </section>
-
-        
-
   </div>
-  
 
 
 
+      <!-- SPONSORSHIPS -->
 
-<!-- WHY PEOPLE CHOOSE US -->
-    <div class="section-space80">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mb60 mt40 text-center section-title">
-                        <!-- section title start-->
-                        <h1>Why People Choose Us</h1>
-                    </div>
-                    <!-- /.section title start-->
-                </div>
+      <section class="text--center">
+        <div class="about-container ">
+         <div class="grid ">
+            <div class="flex-row">
+                <h2 class="medium-title">Our Commitment</h2>
+                <h2 class="capital-title pinside50 product-line-container">To Safety on the Roads</h2>
             </div>
+            <p class="pinside50">Empco-Lite is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership. We are proud members of National Highway Safety Administration, American Traffic Safety Services Association, Flasher Barricade Association, and the Transportation Safety Equipment Institute.  </p>
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="bg-white bg-boxshadow">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 nopadding col-xs-12">
-                                <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb10"><i class="icon-command  icon-4x icon-primary"></i></div>
-                                    <img class="mb20" src="/static/icons/icons-04.png" height="50%" width="50%">
-                                    <h3>Dedicated Leaders</h3>
-                                    <p>Industry leaders since 1968 - We Lead by Example</p>
-                                    <a href="{{ url_for('contact') }}" class="btn btn-outline mt20">Meet the team</a> </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 nopadding col-xs-12">
-                                <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb10"><i class="icon-cup  icon-4x icon-primary"></i></div>
-                                    <img  class="mb20" src="/static/icons/ribbon-icons-02.png" height="50%" width="50%">
-                                    <h3>Reliability</h3>
-                                    <p> Family-owned, Woman-owned, all products are made in America</p>
-                                    <a href="{{ url_for('about') }}" class="btn btn-outline mt20">about Empco-Lite</a> </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12 nopadding col-xs-12">
-                                <div class="bg-white pinside60 number-block outline">
-                                    <div class="mb10"><i class="icon-calculator  icon-4x icon-primary"></i></div>
-                                    <img class="mb20" src="/static/icons/icons-02.png" height="50%" width="50%">
-                                    <h3>Pride in our Work</h3>
-                                    <p> We are committed to producting high-quality products</p>
-                                    <a href="{{ url_for('process') }}" class="btn btn-outline mt20">Our Process</a> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h3 class="subheading text-center pinside30 mt60">Empco-Lite has the most skilled and dedicated team of professionals in the lighting industry. With the stability of over 50 years in business, our core-values and our team are our most valued assets and the reason for our growth and success.</h3>
 
-                </div>
-            </div>
         </div>
-    </div>
-
-
-
-        <!-- Our Products -->
-
-        <section class="grad-primary bg-boxshadow ">
-            <div class="container">
-    
-    
-                <div class="grid-background-none">
-    
-    
-                    <div id=product-index-container>
-                        We Offer  
-                        <div id=flip>
-                        <div><div>Airport Lights</div></div>
-                        <div><div>Construction Lights</div></div>
-                        <div><div>Marine Lights</div></div>
-                        <div><div>Barge Lights</div></div>
-                        </div>
-                        And More!  
-    
-                        <div><a href="{{ url_for('product_line') }}" class="btn-2">View Products</a></div>
-    
-                    </div>
-    
-    
-                    
-                    <div class="index-products">
-                        
-    
-                        <div class="wrapper">
-                            <div class="box blury-card" >
-                                <img 
-                                src="/static/marine/load_light/LoadLight.jpg
-                                " alt="img">
-                                <div class="frame">
-                                    <h2>High Quality</h2>
-                                    <p>High Performance</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3 text--center">
-                            </div>
-                        
-                        <div class="col-7 details">
-    
-                            
-                        </div>
-                    </div>
-                    
-    
-                    </div>
-    
-                
-            
-                <div class="container flex-row  mt80 ">
-                        <p class="pdr40"></p>
-                        <p class="pdr40">Barricade Lights</p>
-                        <p class="pdr40">Reflectors</p>
-                        <p class="pdr40">Mounting Brackets</p>
-                        <p class="pdr40">Mooring Lights</p>
-                        <p class="pdr40">LED Construction Lights</p>
-                        <p class="pdr40">Portable Construction Lights</p>
-                        <p class="pdr40">Blue Flag Lights</p>
-                        <p class="pdr40">Solar Airport Lights</p>
-                        <p class="pdr40">Barge Lights</p>
-                        <p class="pdr40">ADA Devices</p>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-<!-- SPONSORSHIPS -->
-
-    <section class="text--center">
-        <div class="about-container">
-        <h3 class="capital-title">Proud Members Of</h3>
-        <p>Empco-Lite is honored to be recognized as an industry leader in Safelty, Innovation, and Leadership</p>
             <div class="grid-4">
                 <img src="/static/memberships/memberships-03.png" height="20%" width="20%">
                 <img src="/static/memberships/memberships-04.png" height="20%" width="20%">
@@ -268,6 +220,32 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+    <div class="big-image-quality">
+        <div class="overlay">
+            <div class="product-line-container">
+                <h3 class="">Quality With Integrity</h3>
+                <a href="{{ url_for('process') }}" class="btn">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+  
+
+
+
+
+
+
+   
+
 
 
 
