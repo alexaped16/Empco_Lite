@@ -3,9 +3,95 @@
 
 {% block content %}
 
+<div class=" whitesmoke pinside50 heading-container"> 
+    <h1 class="  heading-container mission-title ">Marine Lighting</h1>
+</div>
 
 <div class="wrapper product-line"> 
-    <div class="mt80 mb40"><h1>Marine Lighting</h1></div>
+    <div class="mt80 mb40"><h1>Barge Lights</h1></div>
+<div class="cols mb100">
+
+
+    <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+        <a href="{{ url_for('barge_light') }}">
+          <div class="container">
+              <div class="front" style="background-image: url(/static/marine/barge_light/PLLAndBargeLight.jpg)">
+                  <div class="inner">
+                      <p>Barge Light</p>
+        <span></span>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="inner">
+                      <p></p>
+                  </div>
+              </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+        <a href="{{ url_for('pilot_location_light') }}">
+          <div class="container">
+              <div class="front" style="background-image: url(/static/marine/PLL/PilotLocationLight.jpg)">
+                  <div class="inner">
+                      <p>Pilot Location Light</p>
+            <span></span>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="inner">
+                      <p>Model 100</p>
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+
+
+<div class="wrapper product-line"> 
+    <div class="mt80 mb40"><h1>Dredge Lights</h1></div>
+<div class="cols mb100">
+
+    <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+        <a href="{{ url_for('solar_dredge_light') }}">
+          <div class="container">
+              <div class="front" style="background-image: url(/static/marine/solar_dredge_light/SolarDredgeLightClear1.jpg)">
+                  <div class="inner">
+                      <p>Dredge Light</p>
+                <span>Solar</span>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="inner">
+                      <p>Model 100</p>
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+        <a href="{{ url_for('dredge_light') }}">
+          <div class="container">
+              <div class="front" style="background-image: url(/static/marine/dredge_light/DredgeLightClear.jpg)">
+                  <div class="inner">
+                      <p>Dredge Light</p>
+            <span></span>
+                  </div>
+              </div>
+              <div class="back">
+                  <div class="inner">
+                      <p>Model 100</p>
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+
+
+    <div class="wrapper product-line"> 
+        <div class="mt80 mb40"><h1>Mooring Light and Load Light</h1></div>
     <div class="cols mb100">
         
         <a href="{{ url_for('model400_led_mooring_light') }}">
@@ -24,25 +110,9 @@
                       </div>
                   </div>
                 </a>
-              </div>
+        </div>
           
-            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('barge_light') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/marine/barge_light/BargeLightGreen.jpg)">
-                          <div class="inner">
-                              <p>Barge Light</p>
-                <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p></p>
-                          </div>
-                      </div>
-                    </div>
-                </a>
-            </div>
+
               
 
 
@@ -63,66 +133,15 @@
                     </div>
                 </a>
             </div>
-            
 
 
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('solar_dredge_light') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/marine/solar_dredge_light/SolarDredgeLightClear1.jpg)">
-                          <div class="inner">
-                              <p>Dredge Light</p>
-                        <span>Solar</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Model 100</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
 
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('dredge_light') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/marine/dredge_light/DredgeLightClear.jpg)">
-                          <div class="inner">
-                              <p>Dredge Light</p>
-                    <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Model 100</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('pilot_location_light') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/marine/PLL/PilotLocationLight.jpg)">
-                          <div class="inner">
-                              <p>Pilot Location Light</p>
-                    <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Model 100</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-          </div>
-   </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
 
 
 

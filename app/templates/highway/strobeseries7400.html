@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="grid bg-default">
+
+
+
+  <section class="mt50">
+    
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+        <div class="slide">
+          <img src="/static/highway/Model7400StrobeLight.jpg" />
+            </div>
+        <div class="nav">
+          <label for="img-6" class="prev">&#x2039;</label>
+          <label for="img-2" class="next">&#x203a;</label>
+        </div>
+        </li>
+
+
+
+
+    </section>
+
+
+
+  <section class="text-right">
+    <div class="container mt0">
+        
+        <h1 class="product-description mb60">Product Description</h1>
+            
+      
+    <p class="model">Model 7400 Strobe</p>
+    <p class="part-number">Part # 98-74000LA (amber), 98-74000LR (red), 98-74000LW (white), 98-74000LB (blue)</p>
+    
+    <div class="container flex-row space-between">
+        
+        <img class="mr50" src="/static/made-in-america-02.png" height="15%" width="15%">
+    </div>
+    
+
+    <p class="specification">Specification:</p>
+      
+        <ul class="specifications">
+          <li>LED circuitry gives a more efficient and longer battery life than Xenon circuitry. </li>
+          <li>LEDs last 100,000 hours. </li>
+          <li>The dome height is 6” in length. </li>
+          <li>Available in amber, red, clear, and blue domes. </li>
+          <li>Available with optional magnetic mounting base. </li>
+          <li>Yellow base is standard, other colors available upon request. </li>   
+        </ul>
+    </div>
+  </section>
+
+
+</div>
+
+
+{% endblock content %}
+

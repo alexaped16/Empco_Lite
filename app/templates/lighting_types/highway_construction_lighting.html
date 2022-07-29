@@ -4,8 +4,8 @@
 {% block content %}
 
 
-<div class="wrapper product-line"> 
-    <div class="mt80 mb40"><h1>Highway Lighting</h1></div>
+<div class=" pinside50 whitesmoke heading-container"> 
+    <h1 class="  heading-container mission-title ">Highway Lighting</h1>
 </div>
         
 
@@ -59,6 +59,27 @@
                     </a>
                 </div>
 
+                <!-- Model 2006 -->
+
+                <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+                    <a href="{{ url_for('model2006d') }}">
+                        <div class="container">
+                            <div class="front" style="background-image: url(/static/highway/2006AmberD-Light.jpg)">
+                                <div class="inner">
+                                    <p>Model 2006D</p>
+                            <span></span>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                <p>Part # 99-L3-0600, 99-L3-0600R, 99-L3-0600S, 99-L3-0600SR
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
 
                 <!-- Model 2006 -->
                 
@@ -79,33 +100,6 @@
                         </div>
                     </a>
                 </div>
-
-                <!--  Wireless Channelizing Sequential Device -->
-
-                <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                    <a href="{{ url_for('sequential_device') }}">
-                        <div class="container">
-                            <div class="front" style="background-image: url(/static/highway/LED_PC_model_400/Model400LEDPC1.jpg)">
-                                <div class="inner">
-                                    <p>Wireless Channelizing</p>
-                            <span>Sequential Device</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>Part # 98-2012SMONO, 98-2012SSMON (Solar Assist)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-
-
-
-
-
 
 
 
@@ -179,8 +173,10 @@
 
 
 
+
+
         <div class="wrapper  product-line"> 
-            <div class="mb40 mt100"><h1>Model 400 LED PC & Battery Adapter</h1></div>
+            <div class="mb40 mt100"><h1>Model 400</h1></div>
         <div class="cols mb100">
 
 
@@ -206,11 +202,11 @@
 
 
                 <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                    <a href="{{ url_for('LED_PC') }}">
+                    <a href="{{ url_for('standaloneflarelight') }}">
                         <div class="container">
-                            <div class="front" style="background-image: url(/static/highway/LED_PC_model_400/Model400LEDPC1.jpg)">
+                            <div class="front" style="background-image: url(/static/highway/standaloneflare/StandaloneFlareLight2.jpg)">
                                 <div class="inner">
-                                    <p>Battery Adapter</p>
+                                    <p>Model 400 Standalone Flare Light</p>
                             <span></span>
                                 </div>
                             </div>
@@ -223,16 +219,6 @@
                     </a>
                 </div>
 
-
-
-
-
-
-
-
-    <div class="wrapper  product-line"> 
-        <div class="mb40 mt100"><h1>ADA Devices</h1></div>
-    <div class="cols mb100">
 
             <!-- audible Device model 400 ADA -->
             <div class="product-col" ontouchstart="this.classList.toggle('hover');">
@@ -272,76 +258,127 @@
                 </a>
             </div>
 
+        <div class="wrapper  product-line"> 
+            <div class="mb40 mt100"><h1>Strobe Lights</h1></div>
+        <div class="cols mb100">
+
+            <!-- audible Device model 400 ADA -->
+            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+                <a href="{{ url_for('strobeseries7400') }}">
+                    <div class="container">
+                        <div class="front" style="background-image: url(/static/highway/Model7400StrobeLight.jpg)">
+                            <div class="inner">
+                                <p>Model 7400 </p>
+                        <span>Strobe Light</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- audible Device model 400 ADA -->
+            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+                <a href="{{ url_for('strobeseries7401') }}">
+                    <div class="container">
+                        <div class="front" style="background-image: url(/static/highway/Model7401StrobeLight.jpg)">
+                            <div class="inner">
+                                <p>Model 7401</p>
+                        <span>Strobe Light</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        <div class="wrapper  product-line"> 
+            <div class="mb40 mt100">
+                <h1>Portable Speed Bumps</h1>
+                <p class="text-center" >Available in 10' and 20' in </p>
+            </div>
+        <div class="cols mb100">
+
+
+        <!-- 10 -->
+        <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+            <a href="{{ url_for('portable10') }}">
+                <div class="container">
+                    <div class="front" style="background-image: url(/static/highway/portablespeedbumps/10PortableSpeedBump.jpg)">
+                        <div class="inner">
+                            <p>10’ Portable Speed Bump</p>
+                    <span></span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Part # 97-40000</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 20 -->
+        <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+            <a href="{{ url_for('portable20') }}">
+                <div class="container">
+                    <div class="front" style="background-image: url(/static/highway/portablespeedbumps/20PortableSpeedBump.jpg)">
+                        <div class="inner">
+                            <p>20’ Portable Speed Bump</p>
+                    <span></span>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Part # 97-40002</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="wrapper  product-line"> 
+            <div class="mb40 mt100"><h1>Sequential Lights</h1></div>
+        <div class="cols mb100">
+
+
+
+            <!--  Wireless Channelizing Sequential Device -->
+
+            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+                <a href="{{ url_for('sequential_device') }}">
+                    <div class="container">
+                        <div class="front" style="background-image: url(/static/highway/LED_PC_model_400/Model400LEDPC1.jpg)">
+                            <div class="inner">
+                                <p>Wireless Channelizing</p>
+                        <span>Sequential Device</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Part # 98-2012SMONO, 98-2012SSMON (Solar Assist)</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
 
 
     <div class="wrapper  product-line"> 
-        <div class="mb40 mt100"><h1>Reflectors</h1></div>
+        <div class="mb40 mt100"><h1>Mounting Brackets and Battery Holders</h1></div>
     <div class="cols mb100">
 
-
-        <!-- EBMT -->
-            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('EBMT') }}">
-                    <div class="container">
-                        <div class="front" style="background-image: url(/static/reflectors/EBMT/EBMT_1.jpg)">
-                            <div class="inner">
-                                <p>EBMT</p>
-                        <span></span>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Part # 96-EBMTHA1S, 96-EBMTHA2S, 96-EB-
-                                MTHW1S,96-EBMTHW2S</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <!-- EMB3x4 -->
-            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('EBM3x4') }}">
-                    <div class="container">
-                        <div class="front" style="background-image: url(/static/reflectors/EMB_3x4/EBM_4_3x4.jpg)">
-                            <div class="inner">
-                                <p>EBM 3x4</p>
-                        <span></span>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Part # 96-EBM34HW1S, 96-EBM34HW2S,
-                                    96-EBM34HA1S,
-                                    96-EBM34HA2S</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <!-- GRD-S -->
-            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('GRD_S') }}">
-                    <div class="container">
-                        <div class="front" style="background-image: url(/static/reflectors/GRD-S/_GRD-S_1.jpg)">
-                            <div class="inner">
-                                <p>GRD-S</p>
-                        <span></span>
-                            </div>
-                        </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Part # 96-EBM34HW1S, 96-EBM34HW2S,
-                                    96-EBM34HA1S,
-                                    96-EBM34HA2S</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
 
 
             <!-- Center Mounting Bracket -->
@@ -423,185 +460,43 @@
                 </a>
             </div>
 
-
-        
-
-
-            <div class="mt80 mb40"><h1>Delineators, Barrier Wall Markers, and Traffic Signal Lenses</h1></div>
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('traffic_signal_lenses') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/traffic_lenses/Amber_Yellow_Traffic_Lense.jpg)">
-                          <div class="inner">
-                              <p>Traffic Signal Lenses</p>
-                                <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                            <p>Available in 8” and 12” diameter signal lenses in standard I.T.E. colors</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-          
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('no18CenterMountDelineator') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/No18Center/AmberAKTNo18CenterMountDelineator.jpg)">
-                          <div class="inner">
-                              <p>No. 18 Center</p>
-                                <span>Mount Delineator</span>
-                          </div>
-                      </div>
-                        <div class="back">
+            <!-- battery adapter -->
+            <div class="product-col" ontouchstart="this.classList.toggle('hover');">
+                <a href="{{ url_for('batteryadapter') }}">
+                    <div class="container">
+                        <div class="front" style="background-image: url(/static/mounting_brackets/batteryadapter/6-VoltBatteryAdapter.jpg)">
                             <div class="inner">
-                                <p>Part # No. 18</p>
+                                <p>D-cell Battery Adapter for 6-Volt (BH-6V)</p>
+                        <span></span>
                             </div>
                         </div>
-                  </div>
-                </a>
-              </div>
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('guardrail_delineator') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/guardrail_delineator_567/567GuardrailDelineator.jpeg)">
-                          <div class="inner">
-                              <p>567 Guardrail Delineator</p>
-                <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Part # 567-1 (single side), 567-2 (double side)</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('guardrail_delineator') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/181Guardraildelineator.JPG)">
-                          <div class="inner">
-                              <p>181 Guardrail Delineator</p>
-                <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Part # 181-1 (single side), 181-2 (double side)</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('aluminum_backer') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/aluminum_backing/AluminumBackerofAKTNo18CenterMountDelineator.jpg)">
-                          <div class="inner">
-                              <p>Aluminum Backing</p>
-                <span>for Mount Delineator</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>No. 18 Center Backing</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('bituminous_pavement_marker_adhesive') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/akt/aluminum_backing/AluminumBackerofAKTNo18CenterMountDelineator.jpg)">
-                          <div class="inner">
-                              <p>Bituminous Pavement Marker Adhesive</p>
-                    <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p></p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-
-
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('butyl_pads') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/56.jpg)">
-                          <div class="inner">
-                              <p>Butyl Pads</p>
-                <span>for Pavement Markers</span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-
-
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('concrete_barrier_wall_marker') }}">
-                  <div class="container">
-                      <div class="front" style="background-image: url(/static/56.jpg)">
-                          <div class="inner">
-                              <p>Concrete Barrier Wall Marker</p>
-                <span></span>
-                          </div>
-                      </div>
-                      <div class="back">
-                          <div class="inner">
-                              <p>Part # JD-1 (single side), JD-2 (double side)</p>
-                          </div>
-                      </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="product-col" ontouchstart="this.classList.toggle('hover');">
-                <a href="{{ url_for('prismatic_retroreflective_pavement_marker') }}">
-                <div class="container">
-                    <div class="front" style="background-image: url(/static/56.jpg)">
-                        <div class="inner">
-                            <p>Prismatic Retroreflective Pavement Marker</p>
-              <span>Model 921</span>
+                        <div class="back">
+                            <div class="inner">
+                                <p>Part # 01-01806
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="back">
-                        <div class="inner">
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
                 </a>
             </div>
-          </div>
-   </div>
 
+
+
+
+            </div>
+            </div>
+            </div>
+            </div>
+   </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
   
 

@@ -141,6 +141,10 @@ def S_solar_2006():
 def model2006():
     return render_template('/highway/model2006.html')
 
+@app.route('/highway/model2006d')
+def model2006d():
+    return render_template('/highway/model2006d.html')
+
 @app.route('/highway/audible_device_model_400_ADA')
 def audible_device_model_400_ADA():
     return render_template('/highway/audible_device_model_400_ADA.html')
@@ -164,6 +168,32 @@ def LED_PC():
 @app.route('/highway/sequential_device')
 def sequential_device():
     return render_template('/highway/sequential_device.html')
+
+@app.route('/highway/standaloneflarelight')
+def standaloneflarelight():
+    return render_template('/highway/standaloneflarelight.html')
+
+@app.route('/highway/strobeseries7400')
+def strobeseries7400():
+    return render_template('/highway/strobeseries7400.html')
+
+@app.route('/highway/strobeseries7401')
+def strobeseries7401():
+    return render_template('/highway/strobeseries7401.html')
+
+@app.route('/highway/portable10')
+def portable10():
+    return render_template('/highway/portable10.html')
+
+@app.route('/highway/portable2')
+def portable20():
+    return render_template('/highway/portable20.html')
+
+@app.route('/highway/batteryadapter')
+def batteryadapter():
+    return render_template('/highway/batteryadapter.html')
+
+
 
 
 

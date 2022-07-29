@@ -473,13 +473,13 @@ footer ul {
   }
   
       
-  .accordion ul li:nth-child(1) { background-image: url("/static/airport_lighting/104.jpg"); background-position: center center; background-size:cover;}
+  .accordion ul li:nth-child(1) { background-image: url("/static/airport_lighting/solar601/Model601SolarAirportLight1.jpg"); background-position: center center; background-size:cover;}
   
-  .accordion ul li:nth-child(2) {  background-image: url("/static/marine/mooring_light/2Model400LEDMooringLight.jpg"); background-position: center center; background-size:cover;}
+  .accordion ul li:nth-child(2) {  background-image: url("/static/marine/barge_light/PLLAndBargeLight.jpg"); background-position: center center; background-size:cover;}
   
-  .accordion ul li:nth-child(3) {  background-image: url("/static/airport_lighting/solar601/Model601SolarAirportLight1.jpg"); background-position: center center; background-size:cover;}
+  .accordion ul li:nth-child(3) {  background-image: url("/static/railroad/BlueFlagLight.jpg"); background-position: center center; background-size:cover;}
   
-  .accordion ul li:nth-child(4) { background-image: url("/static/highway/S_Solar_model2006/Model2006S_Solar3.jpg"); background-position: top right; background-size:cover;}
+  .accordion ul li:nth-child(4) { background-image: url("/static/highway/model2006/Model2006_1.jpg"); background-position: top right; background-size:cover;}
   
   
   .accordion ul:hover li { width: 15%; }
@@ -601,7 +601,7 @@ footer ul {
       content: '';
       display: block;
       opacity: .6;
-      background-color: rgba(0, 0, 0, 0.073);
+      background-color: rgba(255, 245, 245, 0.073);
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
@@ -744,6 +744,10 @@ footer ul {
   border: none; 
   padding: 10px;
   opacity: 60%; 
+}
+
+.whitesmoke{
+  background-color: whitesmoke; 
 }
 
 
@@ -1134,7 +1138,7 @@ footer ul {
 
   .grid-3{
     display: grid; 
-    grid-template-columns: 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: whitesmoke; 
   }
 
@@ -1822,11 +1826,36 @@ blockquote cite:before {
     background-color: Black; 
     font-family: 'PT Sans', sans-serif; 
   }
+
   
   .btn-2:hover{
     background-color: black;  
     color: white;  
     border: 2px solid black;  
+  }
+
+  .btn-3{
+    min-width: 200px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.4rem;
+    border: 2px solid white;  
+    padding: 0.3rem 1.2rem;
+    text-transform: capitalize;
+    color: inherit;
+    transition: .7s;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.644); 
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;  
+  }
+
+  .btn-3:hover{
+    background: black;  
+    border: none; 
+    color: white; 
+    border: 1px solid white;   
   }
 
   .btn-1{
@@ -1873,29 +1902,25 @@ blockquote cite:before {
   /*remove block and see change at bottom*/
   #process img {
     display: block;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     object-fit: cover;
   }
 
 
     article {
-    padding: 0 2.5rem;
+    padding: 0 3.0rem;
   }
   
-  #process h1 {
-    font-size: 3rem;
-    font-family: 'Merriweather'; 
-    letter-spacing: 0.2rem;
-    margin-bottom: 1rem;
-  }
+
 
   #process h2 {
     font-size: 1.5rem;
-    font-family: 'lato'; 
+    font-family: 'lato', 'sans-serif'; 
     letter-spacing: .5rem;
-    margin-bottom: 5rem;
-    padding-left: 5rem; 
+    margin-bottom: 2rem;
+    margin-top: 2rem; 
+    padding-left: 2rem; 
   }
   
   p{
@@ -2374,6 +2399,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   line-height: 1em;
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
+  
 
 }
 
@@ -2797,10 +2823,10 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   display: block;
   position: absolute;
   right: -10%;
-  top: 20;
-  width: 50%;
-  height: 70%;
-  background-image: url("/static/plant_pictures/IMG_7462_Fotor.jpg");       
+  bottom: 0;
+  width: 25%;
+  height: 100%;
+  background-image: url("/static/plant_pictures/IMG_7466_Fotor.jpg");       
   -webkit-animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
           animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
@@ -2917,5 +2943,12 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 #flip div:last-child div {
   background: none; 
+}
+
+
+
+.heading-container{
+  background-color: rgb(18, 17, 17)smoke;
+   
 }
 
