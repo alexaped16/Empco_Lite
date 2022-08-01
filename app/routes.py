@@ -34,6 +34,14 @@ def sister_companies():
 def akt():
     return render_template('akt.html')
 
+@app.route('/privacypolicy')
+def privacypolicy():
+    return render_template('privacypolicy.html')
+
+@app.route('/termsofuse')
+def termsofuse():
+    return render_template('termsofuse.html')
+
 
 
 # PRODUCT LINE 

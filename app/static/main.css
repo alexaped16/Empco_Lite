@@ -2399,7 +2399,6 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   line-height: 1em;
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
-  
 
 }
 
@@ -2824,7 +2823,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   position: absolute;
   right: -10%;
   bottom: 0;
-  width: 25%;
+  width: 35%;
   height: 100%;
   background-image: url("/static/plant_pictures/IMG_7466_Fotor.jpg");       
   -webkit-animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
