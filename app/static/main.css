@@ -49,7 +49,7 @@
 
 #nav-logo{
     display: image-fluid; 
-    max-width: 10rem;
+    max-width: 15rem;
     margin-bottom: 20px;
     margin-top: -10px;   
 }
@@ -473,13 +473,13 @@ footer ul {
   }
   
       
-  .accordion ul li:nth-child(1) { background-image: url("/static/airport_lighting/solar601/Model601SolarAirportLight1.jpg"); background-position: center center; background-size:cover;}
+  .accordion ul li:nth-child(1) { background-image: url("/static/highway/212-3sand2006base.png"); background-position: center center; background-size:cover;}
   
   .accordion ul li:nth-child(2) {  background-image: url("/static/marine/barge_light/PLLAndBargeLight.jpg"); background-position: center center; background-size:cover;}
   
-  .accordion ul li:nth-child(3) {  background-image: url("/static/railroad/BlueFlagLight.jpg"); background-position: center center; background-size:cover;}
+  .accordion ul li:nth-child(3) {  background-image: url("/static/airport_lighting/solar601/Model601SolarAirportLight1.jpg"); background-position: center center; background-size:cover;}
   
-  .accordion ul li:nth-child(4) { background-image: url("/static/highway/model2006/Model2006_1.jpg"); background-position: top right; background-size:cover;}
+  .accordion ul li:nth-child(4) { background-image: url("/static/railroad/BlueFlagLight.jpg"); background-position: top right; background-size:cover;}
   
   
   .accordion ul:hover li { width: 15%; }
@@ -524,12 +524,13 @@ footer ul {
   /* PRODUCT LINE  */
 
   .wrapper h1{
-    font-size: 2.5rem;
-    font-family: 'Open Sans';
-    font-weight: normal;
-    color: #444;
+    font-size: 3.0rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: rgb(46, 44, 44);
     text-align: center;
-    margin: 2rem 0;
+    margin: .1rem 0;
+    margin-top: 6rem; 
   }
   
    .wrapper{
@@ -576,12 +577,12 @@ footer ul {
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       text-align: center;
-      min-height: 280px;
-      min-width: 280px; 
+      min-height: 300px;
+      min-width: 300px; 
       height: auto;
       border-radius: 10px;
       color: #fff;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
   }
   
   .product-line .back{
@@ -600,8 +601,8 @@ footer ul {
       height: 100%;
       content: '';
       display: block;
-      opacity: .6;
-      background-color: rgba(255, 245, 245, 0.073);
+      opacity: .9;
+      background-color: rgba(19, 19, 19, 0.242);
       -webkit-backface-visibility: hidden;
               backface-visibility: hidden;
       border-radius: 10px;
@@ -667,7 +668,7 @@ footer ul {
   }
   
   .product-line .front .inner p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
     position: relative;
   }
@@ -683,12 +684,14 @@ footer ul {
     right: 0;
     margin: 0 auto;
     bottom: -.75rem;
+
   }
   
-  .product-line .front .inner span{
-    color: rgba(255,255,255,0.7);
-    font-family: 'Montserrat';
-    font-weight: 300;
+  .product-line .front  .inner span{
+    color: rgb(255, 255, 255);
+    font-family: 'open sans' sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem; 
   }
   
   @media screen and (max-width: 64rem){
@@ -714,24 +717,27 @@ footer ul {
 
 .product-description{
   font-family: 'Open Sans', sans-serif;
-  font-size: 21px; 
+  font-size: 1.6rem;
+  font-weight: 800;  
 }
 
 .model{
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-size: 25px; 
+  font-size: 2.3rem;  
 }
 
 .part-number{
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   color: gray; 
+  font-size: 1.1rem; 
 }
 
 .specification{
-  font-family: 'Roboto', sans-serif;
-  font-weight:800;
+  font-family: 'Pt sans', sans-serif;
+  font-weight:400;
+  font-size: 1.5rem; 
 }
 
 .specifications{
@@ -2801,14 +2807,14 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 
 #intro-animation{
-  background: black;      
-  color: white;     
+  background: rgba(0, 0, 0, 0.681);      
+  color: white;    
 }
 
 .hero {
   box-sizing: border-box;
   display: flex;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 6rem;
   justify-content: center;
   flex-direction: column;
@@ -2823,9 +2829,9 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   position: absolute;
   right: -10%;
   bottom: 0;
-  width: 35%;
+  width: 100%;
   height: 100%;
-  background-image: url("/static/plant_pictures/IMG_7466_Fotor.jpg");       
+         
   -webkit-animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
           animation: untransform normal 1 1.25s 0.9375s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
@@ -2837,8 +2843,8 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 50%;
-  height: 70%;
+  width: 80%;
+  height: 100%;
   background-image: url("/static/plant_pictures/IMG_7462_Fotor.jpg");       
  
   -webkit-animation: untransform normal 1 1.5625s 0.3125s cubic-bezier(0.33, 1, 0.68, 1) forwards;
